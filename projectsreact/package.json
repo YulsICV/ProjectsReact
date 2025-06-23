@@ -7,15 +7,19 @@
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "keywords": [],
-  "author": "",
+  "author": "YulICV",
   "license": "ISC",
   "type": "commonjs",
   "devDependencies": {
     "autoprefixer": "^10.4.21",
     "postcss": "^8.5.3",
+    "standard": "^17.1.2",
     "tailwindcss": "^4.1.6"
   },
   "dependencies": {
     "@tailwindcss/vite": "^4.1.6"
+  },
+  "eslintConfig": {
+    "extends": "./node_modules/standard/eslintrc.json"
   }
 }
