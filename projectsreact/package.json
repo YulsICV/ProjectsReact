@@ -14,10 +14,11 @@
     "autoprefixer": "^10.4.21",
     "postcss": "^8.5.3",
     "standard": "^17.1.2",
-    "tailwindcss": "^4.1.6"
+    "tailwindcss": "^4.1.10"
   },
   "dependencies": {
-    "@tailwindcss/vite": "^4.1.6"
+    "@tailwindcss/vite": "^4.1.10",
+    "vite": "^7.0.0"
   },
   "eslintConfig": {
     "extends": "./node_modules/standard/eslintrc.json"
